@@ -85,6 +85,7 @@
      align-items: center;
      padding-left: 200px;
      padding-right: 200px;
+     padding-bottom: 100px;
 
   }
   .information h1{
@@ -121,3 +122,80 @@
       display: flex;
       text-align: center;
   }
+
+  .quotebox {
+      display: flex;
+      flex-direction: column;
+      padding-left: 300px;
+      padding-right: 300px;
+      background-color: #e5e7eb;
+      padding-top: 100px;
+      gap: 10px;
+      padding-bottom: 100px;
+
+
+  }
+
+  .quote {
+        font-size: 36px;
+        font-style: italic;
+        color:#1f2937;
+
+
+  }
+
+  .quote-author {
+    font-size: 28px;
+    font-weight: bold;
+      text-align: right;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .call {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+
+  }
+
+
+  .call-container {
+      background-color: #3882f6;
+      display: flex;
+      padding: 10px 50px;
+      justify-content: space-between;
+      gap: 200px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-radius: 5px;
+      color: #e5e7eb;
+
+  }
+
+  .button2 {
+    background-color: #3882f6;
+    color: #fff;
+    border-color: #fff;
+    border-radius:15px;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+
+
+
+  }
+
+  .call-button {
+    display: flex;
+    align-self: center;
+ }
+
+ .footer {
+     font-size: 10px;
+     display: flex;
+     justify-content: center;
+     background-color: black;
+     color: #fff;
+     padding: 10px;
+ }
